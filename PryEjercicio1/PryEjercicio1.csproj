@@ -121,5 +121,10 @@
   <ItemGroup>
     <None Include="Resources\Diseño_sin_título-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="BDTiendamia.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
